@@ -1,6 +1,12 @@
 import FirstPage from "./components/FirstPage";
+import Fooditems from "./components/FoodItems";
 
 function App() {
-  return <FirstPage></FirstPage>;
+  return (
+    <>
+      <Fooditems />
+      <FirstPage />;
+    </>
+  );
 }
 export default App;
