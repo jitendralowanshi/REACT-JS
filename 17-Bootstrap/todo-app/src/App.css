@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+padding: 20px;
+font-weight: bolder;
+}
+
+
+input {
+  width: 100%;
+}
+
+.kg-row {
+  text-align: left;
+}
+
+.kg-button {
+  min-width: 80px;
+}
+
+.kg-margin {
+  margin: 15px 5px;
+}
