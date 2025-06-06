@@ -1,10 +1,10 @@
-function TodoItem({ todoName, todoDate }) {
+function TodoItem({ todoName, todoDueDate }) {
   return (
     <>
       <div className="container kg-margin">
         <div className="row kg-row">
           <div className="col-6">{todoName}</div>
-          <div className="col-4">{todoDate}</div>
+          <div className="col-4">{todoDueDate}</div>
           <div className="col-2">
             <button
               type="button"
