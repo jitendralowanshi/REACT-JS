@@ -1,4 +1,4 @@
-function TodoItem({ todoName, todoDueDate }) {
+function TodoItem({ todoName, todoDueDate, onDeletClick }) {
   return (
     <>
       <div className="container kg-margin">
@@ -9,6 +9,7 @@ function TodoItem({ todoName, todoDueDate }) {
             <button
               type="button"
               className="btn btn-danger text-center kg-button"
+              onClick={() => onDeletClick(todoName)}
             >
               Delete
             </button>

@@ -2,20 +2,20 @@ import { use, useState } from "react";
 
 function AddTodo({ onNewItem }) {
   const [todoName, setTodoName] = useState("");
-  const [dueDate, SetdueDate] = useState("");
+  const [dueDate, setDueDate] = useState("");
 
   const handleNameChange = (event) => {
     setTodoName(event.target.value);
   };
 
   const handleDueDateChange = (event) => {
-    SetdueDate(event.target.value);
+    setDueDate(event.target.value);
   };
 
   const handleAddButtonClicked = () => {
     onNewItem(todoName, dueDate);
     setTodoName("");
-    SetdueDate("");
+    setDueDate("");
   };
 
   return (
